@@ -26,3 +26,4 @@ jobs:
     - run: echo ${{ steps.deploy.outputs.containerName }}
     - run: az login -u ${{ secrets.AZURE_UN }} -p ${{ secrets.AZURE_PW }}
     - run: az aks create \ --resource-group newgroup \ --name myAKSCluster \ --node-count 2 \ --generate-ssh-keys \ --attach-acr regiregiregi
+      #Run it!
