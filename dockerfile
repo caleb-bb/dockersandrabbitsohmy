@@ -1,0 +1,3 @@
+FROM rabbitmq
+RUN rabbitmq
+
