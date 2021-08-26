@@ -1,4 +1,4 @@
-on: [push]
+on: repository_dispatch
 name: Azure ARM
 jobs:
   build-and-deploy:
